@@ -1,0 +1,54 @@
+body{
+    background-image: url(main.jpg);
+     background-image: transparent;
+     background-position-x: center;
+     
+
+  }
+  
+  h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: cursive;
+    color: white;
+  }
+  button{
+    height: 150px;
+    width: 150px;
+    border: #008b75;
+    border-width: 7px;
+    border-style: solid;
+    margin-left: 15px;
+    font-size: xxx-large;
+    color: black;
+    font-family: cursive;
+    font-weight: bolder;
+    cursor: pointer;
+    background: var(--clr);
+    letter-spacing: 0.25em;
+    
+  }
+  #box{
+    align-items: center ;
+    margin: 250px;
+    border-radius: 10px;
+    
+  }
+  
+  
+  button:hover {
+    border: 10px solid #666;
+}
+  
+  button:active {
+  background-color: transparent;
+  border: 10px solid #666;
+  transform: translateY(4px);
+  }
+  
+  .add{
+  background-color: transparent;
+  border: 10px solid #666;
+  transform: translateY(4px);
+  background: var(--clr);
+  }
